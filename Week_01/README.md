@@ -1,13 +1,13 @@
 # 学习笔记
 
 ## 工欲善其事，必先利其器
-**五毒神掌App：年轮（艾宾浩斯遗忘曲线**
+1. 五毒神掌App：年轮（艾宾浩斯遗忘曲线
 
 
-**磨刀霍霍向算法：玩转IDE**
+2. 磨刀霍霍向算法：玩转IDE
 
 
-**一起「作弊」吧：cheatsheet小合集**
+3. 一起「作弊」吧：cheatsheet小合集
 
 
 ## 算法解题思路
@@ -69,11 +69,12 @@
 
 
 ## 参考链接
-[Java 的 PriorityQueue 文档]https://docs.oracle.com/javase/10/docs/api/java/util/PriorityQueue.html
-[Java 的 Stack 源码]http://developer.classpath.org/doc/java/util/Stack-source.html
-[Java 的 Queue 源码]http://fuseyism.com/classpath/doc/java/util/Queue-source.html
-[Python 的 heapq]https://docs.python.org/2/library/heapq.html
-[高性能的 container 库]https://docs.python.org/2/library/collections.html
+[Java 的 PriorityQueue 文档](https://docs.oracle.com/javase/10/docs/api/java/util/PriorityQueue.html)
+[Java 的 Stack 源码](http://developer.classpath.org/doc/java/util/Stack-source.html)
+[Java 的 Queue 源码](http://fuseyism.com/classpath/doc/java/util/Queue-source.html)
+[Python 的 heapq](https://docs.python.org/2/library/heapq.html)
+[高性能的 container 库](https://docs.python.org/2/library/collections.html)
 
 ——————————
+
 *兴奋 -> 彷徨 -> 坚持 -> offer！*
