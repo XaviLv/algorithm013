@@ -17,32 +17,27 @@ ___
 ## 脑图
 
 1.高效学习算法
-<<<<<<< HEAD
+
 ![1.高效学习算法](./xmind/1-高效学习算法.png)
-=======
-![1.高效学习算法](https://github.com/XaviLv/algorithm013/blob/master/Week_01/xmind/1-高效学习算法.png)
-
-
-![xxx](https://github.com/XaviLv/algorithm013/blob/master/Week_01/xmind/1-%E9%AB%98%E6%95%88%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95.png?raw=true)
-
-
-https://github.com/用户名/repository仓库名/raw/分支名master/图片文件夹名称/.png or.jpg
->>>>>>> 610c62743114a7fe86d97d1f7c79943c117d1115
 
 
 2.算法与数据结构总览
+
 ![2.算法与数据结构总览](./xmind/2-算法与数据结构总览.png)
 
 
 3.时空复杂度
+
 ![3.时空复杂度](./xmind/3-时空复杂度.png)
 
 
 4.数组_链表_跳表
+
 ![4.数组_链表_跳表](./xmind/4-数组_链表_跳表.png)
 
 
 5.栈_队列
+
 ![5.栈_队列](./xmind/5-栈_队列.png)
 
 
