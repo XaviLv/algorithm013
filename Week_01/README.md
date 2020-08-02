@@ -8,116 +8,51 @@
 > 5. 重点题目，在这里记录详细思路和解法，不要求贴代码
 > 6. 其他
 
+**300 题 / 10 周 ~= 4 题 / 1 天**
 
-**10周 300题 ： 相当于 1天 至少 4题**
 ___
 
 
 
-## 师夷长技以制
+## 脑图
 
-* 刷题秘籍：**五毒神掌**
+1.高效学习算法
+![1.高效学习算法](./xmind/1-高效学习算法.png)
 
 
-* 如何科学搜索源码
+2.算法与数据结构总览
+![2.算法与数据结构总览](./xmind/2-算法与数据结构总览.png)
 
 
-* 分析 Queue 和 Priority Queue 源码
+3.时空复杂度
+![3.时空复杂度](./xmind/3-时空复杂度.png)
 
 
-* 用 add first 或 add last 这套新的 API 改写 Deque 的代码
+4.数组_链表_跳表
+![4.数组_链表_跳表](./xmind/4-数组_链表_跳表.png)
 
 
-* 复杂度分析（时间/空间）
+5.栈_队列
+![5.栈_队列](./xmind/5-栈_队列.png)
 
 
-* 编码技巧 & Code Style
+## 三省吾身
 
+第一周过去了，和大家一样都很兴奋，每天看视频、刷题、看题解，反反复复。虽然才7天，但二刷三刷题目的时候，明显感觉到思路能很快街上了，而且代码写起来也比较顺了。简要记录一下：
 
-## 加餐
+* 经验
+1. 每日刷题跟上节奏，重要的是习惯养成；
+2. Day1 看所有视频（第一遍），Day2~7 刷题；
+3. 刷题遍数保持的不错，但还应该按照时间规律（客观认识记忆曲线）；
+4. 脑图学习法能够帮我建立 semantic tree；
+5. 5分钟没思路，或者10分钟写不出来，直接看高票题解，默写优质代码。
 
-* 数据结构与算法总揽（脑图）
 
-## 工欲善其事，必先利其器
-* 五毒神掌App：年轮（艾宾浩斯遗忘曲线）
-
-
-* 磨刀霍霍向算法：玩转IDE
-
-
-* 一起「作弊」吧：cheatsheet小合集
-
-
-## 算法解题思路
- (只记录最重要的一些思路！！！相同类型的解题思路总结一下，最好有图！！不要罗列，单个题目的思路应该在py代码中注解，十分重要的，比如接雨水，可以在这里详细说明，或者直接在leetcode的题解中写清楚，这里链接一下。)
-### 简单
-* [爬楼梯（阿里巴巴、腾讯、字节跳动在半年内面试常考）](https://leetcode-cn.com/problems/climbing-stairs/)
-
-
-* [206. 反转链表（字节跳动、亚马逊在半年内面试常考）](https://leetcode.com/problems/reverse-linked-list/)
-
-
-* [141. 环形链表（阿里巴巴、字节跳动、腾讯在半年内面试常考）](https://leetcode.com/problems/linked-list-cycle/)
-
-
-* [26. 删除排序数组中的重复项（Facebook、字节跳动、微软在半年内面试中考过）](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
-
-
-* [189. 旋转数组（微软、亚马逊、PayPal 在半年内面试中考过）](https://leetcode-cn.com/problems/rotate-array/)
-
-
-* [21. 合并两个有序链表（亚马逊、字节跳动在半年内面试常考）](https://leetcode-cn.com/problems/merge-two-sorted-lists/) 
-
-
-* [88. 合并两个有序数组（Facebook 在半年内面试常考）](https://leetcode-cn.com/problems/merge-sorted-array/)
-
-
-* [1. 两数之和（亚马逊、字节跳动、谷歌、Facebook、苹果、微软在半年内面试中高频常考）](https://leetcode-cn.com/problems/two-sum/)
-
-
-* [283. 移动零（Facebook、亚马逊、苹果在半年内面试中考过）](https://leetcode-cn.com/problems/move-zeroes/)
-
-
-* [66. 加一（谷歌、字节跳动、Facebook 在半年内面试中考过）](https://leetcode-cn.com/problems/plus-one/) 
-
-
-* [20. 有效的括号（亚马逊、JPMorgan 在半年内面试常考）](https://leetcode-cn.com/problems/valid-parentheses/)
-
-
-* [155. 最小栈（亚马逊在半年内面试常考）](https://leetcode-cn.com/problems/min-stack/)
-
-
-### 中等：
-* [641. 设计循环双端队列（Facebook 在 1 年内面试中考过）](https://leetcode.com/problems/design-circular-deque/)
-
-
-* [15. 三数之和（国内、国际大厂历年面试高频老题）](https://leetcode-cn.com/problems/3sum/)
-
-
-* [11. 盛水最多容器（腾讯、百度、字节跳动在近半年内面试常考）](https://leetcode-cn.com/problems/container-with-most-water/)
-
-
-* [24. 两两交换链表中的节点（阿里巴巴、字节跳动在半年内面试常考）](https://leetcode.com/problems/swap-nodes-in-pairs/)
-
-
-* [142. 环形链表 II](https://leetcode.com/problems/linked-list-cycle-ii/)
-
-
-
-
-
-### 困难：
-* [42. 接雨水（亚马逊、字节跳动、高盛集团、Facebook 在半年内面试常考）](https://leetcode.com/problems/trapping-rain-water/)
-
-
-* [84. 柱状图中最大的矩形（亚马逊、微软、字节跳动在半年内面试中考过）](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) 
-
-
-* [239. 滑动窗口最大值（亚马逊在半年内面试常考）](https://leetcode-cn.com/problems/sliding-window-maximum/)
-
-
-* [25. K 个一组翻转链表（字节跳动、猿辅导在半年内面试常考](https://leetcode.com/problems/reverse-nodes-in-k-group/)
-
+* 教训
+1. 没有严格按照五毒神掌的时间规律刷题；
+2. 源码分析没有及时跟上；
+3. 第一周做了很多简单题，下周应该多做中等和困难题；
+4. 周末两天做总结，否则很多软作业无法按时按质完成。
 
 
 ## 参考链接
@@ -135,4 +70,4 @@ ___
 
 ——————————
 
-*兴奋 -> 彷徨 -> 坚持 -> offer！*
+*兴奋 -> 彷徨 -> 坚持 -> OFFER!!!*
