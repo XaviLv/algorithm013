@@ -17,29 +17,23 @@ ___
 ## 脑图
 
 1.高效学习算法
-![1.高效学习算法](https://github.com/XaviLv/algorithm013/blob/master/Week_01/xmind/1-高效学习算法.png)
-
-
-![xxx](https://github.com/XaviLv/algorithm013/raw/master/Week_01/xmind/1-高效学习算法.png)
-
-
-https://github.com/用户名/repository仓库名/raw/分支名master/图片文件夹名称/.png or.jpg
+![1.高效学习算法](./xmind/1-高效学习算法.png)
 
 
 2.算法与数据结构总览
-![2.算法与数据结构总览](https://github.com/XaviLv/algorithm013/blob/master/Week_01/xmind/2-算法与数据结构总览.png)
+![2.算法与数据结构总览](./xmind/2-算法与数据结构总览.png)
 
 
 3.时空复杂度
-![3.时空复杂度](https://github.com/XaviLv/algorithm013/blob/master/Week_01/xmind/3-时空复杂度.png)
+![3.时空复杂度](./xmind/3-时空复杂度.png)
 
 
 4.数组_链表_跳表
-![4.数组_链表_跳表](https://github.com/XaviLv/algorithm013/blob/master/Week_01/xmind/4-数组_链表_跳表.png)
+![4.数组_链表_跳表](./xmind/4-数组_链表_跳表.png)
 
 
 5.栈_队列
-![5.栈_队列](https://github.com/XaviLv/algorithm013/blob/master/Week_01/xmind/5-栈_队列.png)
+![5.栈_队列](./xmind/5-栈_队列.png)
 
 
 ## 三省吾身
