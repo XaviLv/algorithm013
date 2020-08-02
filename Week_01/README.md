@@ -20,7 +20,7 @@ ___
 ![1.高效学习算法](https://github.com/XaviLv/algorithm013/blob/master/Week_01/xmind/1-高效学习算法.png)
 
 
-![xxx](https://github.com/XaviLv/algorithm013/raw/master/Week_01/xmind/1-高效学习算法.png)
+![xxx](https://github.com/XaviLv/algorithm013/blob/master/Week_01/xmind/1-%E9%AB%98%E6%95%88%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95.png?raw=true)
 
 
 https://github.com/用户名/repository仓库名/raw/分支名master/图片文件夹名称/.png or.jpg
