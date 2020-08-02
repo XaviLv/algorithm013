@@ -18,7 +18,12 @@ ___
 
 1.高效学习算法
 ![1.高效学习算法](https://github.com/XaviLv/algorithm013/blob/master/Week_01/xmind/1-高效学习算法.png)
-![xxx](https://github.com/bootstrap-vue/bootstrap-vue/raw/master/static/banner.png)
+
+
+![xxx](https://github.com/XaviLv/algorithm013/raw/master/Week_01/xmind/1-高效学习算法.png)
+
+
+https://github.com/用户名/repository仓库名/raw/分支名master/图片文件夹名称/.png or.jpg
 
 
 2.算法与数据结构总览
