@@ -4,13 +4,20 @@
 |---|---|---|
 |08/05|0.0.1|draft|
 
+</br>
 
-> 既然**刷题**是成长为顶尖职业选手的必经之路，那就认认真真地彻底用好这几个月吧！
-> 除了五毒神掌之外，我觉得应该适当拓展，把每周课程范围内的高频题尽量多做一些，特别是要多做几遍！！！这样，每周都能聚焦在一个小知识圈内，刻意练习。通过不同的题目，发现自己学习中的疏漏和偏差，及时纠正并不断强化！>                                                  ———— week2 小理解
 
+> 既然 <font color=red>*刷题*</font> 是成长为顶尖职业选手的必经之路，那就认认真真地彻底用好这几个月吧！
+> 除了五毒神掌之外，我觉得应该适当拓展，把每周课程范围内的高频题尽量多做一些，特别是要多做几遍！！！这样，每周都能聚焦在一个小知识圈内，刻意练习。通过不同的题目，发现自己学习中的疏漏和偏差，及时纠正并不断强化！
+> 
+> <p align="right">———— week2 小理解</p>
+
+</br>
 
 ## HashMap 源码分析 之 Get / Put
-* Get
+
+### Get
+
 Get 方法比较直接，根据传入的 key，计算 hash 值（索引），并依据该索引直接获取数组 buckets 中保存的 HashEntry。然后从该 HashEntry 链表头节点开始遍历，直到找到相同的 key，或者到链表尾部位置。详细分析如下：
 ```python
 public V get(Object key)
@@ -32,10 +39,13 @@ public V get(Object key)
     return null;
 }
 ```
-问题：
+* 问题：
 1. HashEntry 的实现是 LinkedHashMap 吗？
 
-* Put
+</br>
+
+### Put
+
 Put 方法涉及到 hash碰撞 、hash表扩展等，稍微有点复杂，详细如下：
 ```python
 public V put(K key, V value)
@@ -91,9 +101,10 @@ void addEntry(K key, V value, int idx, boolean callRemove)
     buckets[idx] = e;
 }
 ```
-问题：
+* 问题：
 1. 什么是 bookkeeping？在 LinkedHashMap 中又是如何使用的？
 
+</br>
 
 ## Heap 堆
 
@@ -104,12 +115,18 @@ void addEntry(K key, V value, int idx, boolean callRemove)
 |Priority Queue|是各种语言（库）的堆实现|
 |Heapq|python中堆的实现|
 
+</br>
+
 ### 什么是 Binary Heap（二叉堆）？
 
 Binary Heap（二叉堆）是特殊的一个完全二叉树，其根节点大于或小于其所有的子孙节点。如果是大于，则为 max heap（大顶堆）；如果是小于，则为 min heap（小顶堆）。可以用树或者数组表示。
 
+</br>
+
 ### 为什么要用数组表示 Binary Heap？
 因为 Binary Heap 是一个完全二叉树，用数组存放既可以节省空间，又能通过下标快速访问父节点或孩子节点。比如对于节点 i，其父节点是 (i-1)//2，其左儿子是 2*i+1，右儿子是 2*i+2（假设index从0开始）。
+
+</br>
 
 ### Heap sort（堆排序）
 Heap sort 类似插入排序，后者每次选取最大值放在最后，不断重复以完成排序。堆排序相比选择排序，在取得最大值的方法上有所不同。具体步骤如下：
@@ -117,6 +134,10 @@ Heap sort 类似插入排序，后者每次选取最大值放在最后，不断�
 2. 弹出 top 元素，并记录至 ans（answer）数组，然后 heapify（堆化）；
 3. 重复上述步骤，直到堆为空。
 上述步骤中可以通过创建 min heap，或者使用 deque 等操作，实现升序排列。
+
+</br>
+
+</br>
 
 ----
 坚持！第二周！
