@@ -17,6 +17,8 @@
 
 ## HashMap 源码分析 之 Get / Put
 
+[Source Code](http://developer.classpath.org/doc/java/util/HashMap-source.html)
+
 ### Get
 
 Get 方法比较直接，根据传入的 key，计算 hash 值（索引），并依据该索引直接获取数组 buckets 中保存的 HashEntry。然后从该 HashEntry 链表头节点开始遍历，直到找到相同的 key，或者到链表尾部位置。详细分析如下：
