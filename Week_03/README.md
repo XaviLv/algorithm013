@@ -9,6 +9,8 @@
 > 尝试一下每天都写点总结，知识的积累是个循序渐进、不断反复的过程。
 > <p align="right">—— week3 小理解</p>
 
+[--> 图片加载不出来看这里](https://blog.csdn.net/outman_1921/article/details/106595472)
+
 <br/>
 
 ## 递归分治回溯 / 本质
