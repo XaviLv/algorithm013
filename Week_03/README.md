@@ -64,7 +64,22 @@
 
 ### 代码
 
-![递归代码模版](xmind/递归模版.png)
+```python
+def recursion(level, param1, param2, ...):
+    # terminator
+    if level > MAX_LEVEL:
+        process result
+        return
+
+    # process logic in current level
+    process(level, data, ...)
+
+    # drill down
+    self.recursion(level+1, p1, ...)
+
+    # revert the current level status if needed
+    
+```
 
 <br/>
 
@@ -80,7 +95,29 @@
 
 ### 代码
 
-![分治模版](xmind/分治模版.png)
+```python
+def divide_conquer(problem, param1, param2, ...):
+    # terminator
+    if problem is NOne:
+        process result
+        return
+
+    # current level logic (prepare data)
+    data = prepare_data(problem)
+    subproblems = split_problem(problem, data)
+
+    # drill down (conquer subproblems)
+    subresult1 = self.divide_conquer(subproblems[0], p1, ...)
+    subresult2 = self.divide_conquer(subproblems[1], p1, ...)
+    subresult3 = self.divide_conquer(subproblems[2], p1, ...)
+    ...
+
+    # merge subresults (process and generate the final result)
+    result = process_result(subresult1, subresult2, subresult3, ...)
+
+    # revert (the current level states)
+
+```
 
 <br/>
 
