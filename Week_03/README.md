@@ -121,8 +121,3 @@ def divide_conquer(problem, param1, param2, ...):
 
 <br/>
 
-## Backtracking 回溯
-
-### 典型案例
-
-- 八皇后、数独、括号生成
