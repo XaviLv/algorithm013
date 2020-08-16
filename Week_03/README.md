@@ -3,12 +3,14 @@
 |Time|Version|Note|
 |---|---|---|
 |08/10|0.0.1|draft|
+|08/16|0.1.0|stable|
 
 <br/>
 
 > 尝试一下每天都写点总结，知识的积累是个循序渐进、不断反复的过程。
 > <p align="right">—— week3 小理解</p>
 
+![递归_分治_回溯.png](xmind/递归_分治_回溯.png)
 [--> 图片加载不出来看这里](https://blog.csdn.net/outman_1921/article/details/106595472)
 
 <br/>
