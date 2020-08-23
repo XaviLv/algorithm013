@@ -3,6 +3,7 @@
 |Time|Version|Note|
 |---|---|---|
 |08/21|0.0.1|draft|
+|08/23|0.1.0|stable|
 
 <br/>
 
