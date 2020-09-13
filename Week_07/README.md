@@ -27,6 +27,28 @@
 
 核心思想：空间换时间，利用字符串的公共前缀来降低查询时间，提高效率。
 
+## 并查集（UnionFind）
+```python
+
+class UnionFind:
+    def __init__(self):
+        self.parents = []
+
+    def parent(self, i):
+        root = i
+        while root != self.parents[root]:
+            root = self.parents[root]
+        # 路径压缩
+        while i != self.parents[i]:
+            self.parents[i], i = root, self.parents[i]
+
+    def union(self, i, j):
+        p0 = self.parent(i)
+        p1 = self.parent(j)
+        self.parents[p0] = p1
+
+```
+
 
 ## 高级搜索
 
