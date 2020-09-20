@@ -89,6 +89,13 @@ x = x & ~x
 1. 快速排序（Quick Sort）：基于分治思想；数组取标杆pivot，将小元素放pivot左边，大元素放右侧，然后依次对右边和右边的子数组继续快排。
 
 ```python
+# quick sort
+def quick_sort(array, begin, end):
+    if begin >= end: return
+    pivot = partition(array, begin, end)
+    quick_sort(array, begin, pivot-1)
+    quick_sort(array, pivot+1, end)
+    
 def partition(array, begin, end):
     pivot, counter = end, begin
     for i in range(begin, end): # 不包含end，因为pivot已占据该点
@@ -98,19 +105,42 @@ def partition(array, begin, end):
     array[counter], array[pivot] = array[pivot], array[counter]
     return counter  # 返回counter作为新的pivot
 
-def quick_sort(array, begin, end):
-    if begin >= end:
-        return
-    pivot = partition(array, begin, end)
-    quick_sort(array, begin, pivot-1)
-    quick_sort(array, pivot+1, end)
-    
 # testcase = [1,3,2,6,2,9,10,5]
-# print(testcase)
+# print('before:', testcase)
 # quick_sort(testcase, 0, len(testcase)-1)
-# print(testcase)
+# print('after:', testcase)
 ```
 
 2. 归并排序（Merge Sort）：同样基于分治思想；把长度为n的输入序列分成长度为n/2的子序列，然后对这两个子序列分别做归并排序，最后合并排好序的两个子序列。**需要额外的内存空间 O(N)**。
+
+```python
+# merge sort
+def merge_sort(array, begin, end):
+    if begin >= end: return
+    mid = begin + (end - begin) >>2
+    merge_sort(array, begin, mid)
+    merge_sort(array, mid+1, end)
+    merge(array, begin, mid, end)
+    
+def merge(array, begin, mid, end):
+    res = []
+    # 三段式
+    left, right = begin, mid+1
+    while left <= mid and right <= end:
+        if array[left] < array[right]:
+            res.append(array[left])
+            left += 1
+        else:
+            res.append(array[right])
+            right += 1
+    while left <= mid:
+        res.append(array[left])
+        left += 1
+    while right <= end:
+        res.append(array[right])
+        right += 1
+    array = res
+```
+
 
 3. 堆排序（Heap Sort）：堆插入 O(logN)，取最大、最小值 O(1)；数组元素依次建立小顶堆，依次取堆顶元素并删除。
