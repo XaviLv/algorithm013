@@ -115,13 +115,14 @@ def partition(array, begin, end):
 
 ```python
 # merge sort
+# merge sort
 def merge_sort(array, begin, end):
     if begin >= end: return
-    mid = begin + (end - begin) >>2
+    mid = (end + begin) >> 1
     merge_sort(array, begin, mid)
     merge_sort(array, mid+1, end)
     merge(array, begin, mid, end)
-    
+
 def merge(array, begin, mid, end):
     res = []
     # 三段式
@@ -139,8 +140,20 @@ def merge(array, begin, mid, end):
     while right <= end:
         res.append(array[right])
         right += 1
-    array = res
+    array[begin:end+1] = res
 ```
 
-
 3. 堆排序（Heap Sort）：堆插入 O(logN)，取最大、最小值 O(1)；数组元素依次建立小顶堆，依次取堆顶元素并删除。
+
+```python
+# heap sort
+import heapq
+def heap_sort(array):
+    temp = []
+    for i in array:
+        heapq.heappush(temp, i)
+    i = 0
+    while temp:
+        array[i] = heapq.heappop(temp)
+        i += 1
+```
