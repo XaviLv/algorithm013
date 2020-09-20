@@ -3,6 +3,7 @@
 |Time|Version|Note|
 |---|---|---|
 |09/16|0.0.1|draft|
+|09/20|0.1.0|stable|
 
 </br>
 
@@ -104,17 +105,11 @@ def partition(array, begin, end):
             counter += 1
     array[counter], array[pivot] = array[pivot], array[counter]
     return counter  # 返回counter作为新的pivot
-
-# testcase = [1,3,2,6,2,9,10,5]
-# print('before:', testcase)
-# quick_sort(testcase, 0, len(testcase)-1)
-# print('after:', testcase)
 ```
 
 2. 归并排序（Merge Sort）：同样基于分治思想；把长度为n的输入序列分成长度为n/2的子序列，然后对这两个子序列分别做归并排序，最后合并排好序的两个子序列。**需要额外的内存空间 O(N)**。
 
 ```python
-# merge sort
 # merge sort
 def merge_sort(array, begin, end):
     if begin >= end: return
